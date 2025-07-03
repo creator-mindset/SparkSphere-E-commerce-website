@@ -1,0 +1,150 @@
+*{
+  padding:0px;
+  margin:0px;
+  font-family:Segoe UI,sans-serif;
+}
+body{
+  background:#f9f9f9;
+  color:black;
+}
+header{
+  display:flex;
+  justify-content:space-between;
+  background:black;
+  color:white;
+  padding:0.6em 1.2em;
+}
+header h1{
+  font-size:2em;
+}
+nav a{
+  margin-left:1em;
+  text-decoration:none;
+  color:white;
+  transition: color 0.3s;
+}
+nav a:hover{
+  color:#f44336;
+}
+.hero{
+  text-align:center;
+  padding:14em 17em;
+  background-image:url("https://www.glam.com/img/gallery/tips-for-styling-a-clothing-rack-for-the-perfect-aesthetic/l-intro-1678394165.jpg");
+  background-size:cover;
+  background-position:center;
+}
+.hero h2{
+  font-size:2em;
+}
+.hero p{
+  font-size:1em;
+  margin-top:2em;
+}
+.hero button{
+  margin-top:1em;
+  background-image:url("data:image/webp;base64,UklGRhgFAABXRUJQVlA4IAwFAADwLwCdASpYAeoAPp1InUuoOyYhppRbQ2ATiWdu4MF3hjJxH0WEyQ7FUl//+7OVBj9P29Zv8vXPgdtfsDWX2CHPvVmyuYY1Go1Go1LT35hPfRYO4fygMKYfuCm/fmE+BchEA0NMkVwJ/4XAp+0NNGuYRFAwj1p0CQ34lO72PVz2KiwUdJe17Ny7WtOV+aKWYDF0ghpoKroGdeh5x6SGYiHAPn1ctway+z7FFwnbfAw2R+1XUhNjaMyc9WJ9I4E96I/mSFQUBTZGKxaIDucB1SpfDeRjX8XcPmU9aMIT/r3Ap9Twgw24Gi+NZmD57q5OeXc1F7BqciNrJYgl56zjXdi/dp4pohyrz14FGstXBnJH2cPkYb5s47trIDDy0W+x6lHnbptUXu42JI8sbxKJYbvZKJHKVw07FcnDHwc5sCinqG+/deJN5Y4OVxC/o3eK7H4trLQk/n4s38geQBqbWPwpuKWCGWpqtVpUXbvliCaKp+Ns+mWo6buhu714HZnZ4aZ3a3U8vTHwAAD+nHv6Z6tEy/SDzpsLTeRkYSHB+UhWc4oUKjZqi4oC0Dkv+sssd6j791wn4Xu52gSV71HA8rX/brQ5IIVhKEHV1oA2Ov2e+2yACZplHcHB2JHGU7goJ3lZUCrLGqCZvw5VIzUEXHuTSm7Eyq2KgPVQDm4GQ+k1oOJZMhWTsqh3a1J2oHMHHHYnRs2qdDZg4EPFlKJknL1+gedPRNXNVpZ+98MSymXujW9BA6Qt28Fb5Od7yiT3dF8iBBTelmvn5R9F5snzxrxuq5SHnSPIEGN5SKSVuMjp8OkkNFDtYA8GJZXVYIVxc8EmI2/rS7BTDOJ7ItKxAnhf169Q6F8KgSWlsvJQuAFM3jj4od2sTenkqscQxr+W0mrtWkgQhF/TlBPsm1tptFCQklAVyXK3UBxi0/pc54Bf2O5eMtHIsNZVL0KkmDsPISHohlG1f+Zp7rOSUsJKNwDgc43mABmVkLlVq6YYUSesJJSX3mVADcARwFqveYCr0mP2KEBM9LuxqvkALubsW0SuKgudNpQZOmqVbi02BCDb/oCycjj7sh8YsUy4c29mnA7zNFZ0kd3iiDBoS1KJNVKxdb5rQb+/1tNlHDYXcH4DTo9azydZpaw4x8eWSWBp6qRbQjmJYHHtWMZcgVkqCAguYsloheu0PspPV/DPGqhe/5O2yA0vZ/zTemsEwILpXl/5VfAbSZxrK1+hpkQgCBOGRgM8vUZy4fkNw10eshCnjjwF7uQ9Jk1P0XPdhD8oY8V6hE7GzQnMzc2qgS4V6cQLetJTeILEyf6uu+kUey9pU3RBF0oiJTRjyt5W6FSWmbXlHpJvthRrJPG+vzYzH2lvlDNXKYPtVoZDb2Ebt2CBZrhvqEf77P3Nd8jg6hGqLrTmvC0XAshZDjzzvfg4g8xx3wW8NfoKhFNh0vNZ1y6FZ0csOMH5ZLaegTFtF146+2H+qwh077NdqBe9Lp2tPQhmq8Oeg0rWjwn02ntUGm4l2hqBW0+wa7cWVwhZ6PchuJ0i1gaDiKLG8DNKNx5KfOCMzeemnYs8Jkpk9h3ImOnvIt8WwrG2Qflf8L8K+jTJQvFYUOY/BQP3rr/CdQHhFv2pZ9XAKqJNjA5PvbZnbAw5G6Jiq6W6tg7PdJckCuiSWHsCMmDutcD+1DuHgJou5FevSS+XL74QV38D6eZ6kGWPQ6NCxZpJgr9mkAAAAA==");
+  background-size:cover;
+  background-position:center;
+  border-radius:10px;
+  padding:0.8em 1.5em;
+  cursor:pointer;
+  color:white;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2em;
+  padding: 3em;
+}
+
+.product-card {
+  background: #fff;
+  padding: 3em;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background-image:url("https://www.tendencias.kpmg.es/wp-content/uploads/2018/11/GettyImages-912949110.jpg");
+  background-size:cover;
+  background-position:center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.chat-header {
+  background: #111;
+  color: #fff;
+  padding: 0.8em;
+  font-weight: bold;
+}
+
+.chat-window {
+  height: 200px;
+  overflow-y: auto;
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+.chat-window div {
+  margin-bottom: 0.5em;
+}
+
+#chat-input {
+  width: 100%;
+  padding: 0.8em;
+  border: none;
+ 
+}
+.order{
+  padding:5em;
+  
+  background:#f44336;
+}
+.order h5{
+  font-size:2em;
+  font-weight:bold;
+}
+.order form{
+  display:flex;
+  flex-direction:column;
+  max-width:300px;
+  
+  
+}
+.order textarea,
+.order input{
+  gap:1em;
+  margin-top:2em;
+  padding:0.8em 1.5em;
+  border-radius:10px;
+}
+.order button{
+  margin-top:2em;
+  border-radius:10px;
+    background-image:url("https://img.freepik.com/premium-vector/abstract-smooth-blur-purple-color-gradient-effect-background-graphic-design-element_120819-1849.jpg");
+  background-size:cover;
+  background-position:center;
+  padding:0.8em 1.5em;
+  cursor:pointer;
+}
+footer{
+  text-align:center;
+  background:black;
+  padding:2em;
+  color:white;
+}
+footer h4{
+  margin-top:1em;
+}
